@@ -1,0 +1,6 @@
+{% extends 'get_print/base.html' %}
+
+{% block body %}
+    <h1>Welcome, {{user}}</h1>
+    <a href="{% url 'parts' %}">Parts</a>
+{% endblock %}
